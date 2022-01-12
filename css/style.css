@@ -30,11 +30,11 @@ body {
     height: 100%;
     font-family: Raleway;
 }
-.site-name{  
-    flex:1;     
+.site-name{     
     font-weight: 900;
     font-size: 24px;
     color: #333;
+    display: inline;
 }
 .nav{
     height: 100%;
