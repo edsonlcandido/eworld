@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700itali|Raleway:400,900,800,700,500,200,100,600);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: white;
+    font-size: 16px;
+    font-family: "PT Serif", Georgia, serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #777777;
+  }
+.header{
+    background: #ccc;
+    height: 64px;  
+}
+.header-content{
+    max-width: 1265px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;     
+    align-items: center;
+    text-transform: uppercase; 
+    height: 100%;
+    font-family: Raleway;
+}
+.site-name{  
+    flex:1;     
+    font-weight: 900;
+    font-size: 24px;
+    color: #333;
+}
+.nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap:8px ;
+}
+.nav-item{
+    height: 100%;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 20px 24px 0;
+    color: #333;
+}
+.nav-item.active,.nav-item:hover {
+    height:100%;
+    background-color: #333;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 20px 24px 0;
+    color: #62cca8;
+}
+.nav-item:hover{
+    transition:all 0.4s;
+    opacity: 0.8;
+}
